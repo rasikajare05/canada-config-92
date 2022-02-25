@@ -58,7 +58,7 @@
 "patientPregnancyandBirthMedicalHistory": {
                 "title": "patientPregnancyandBirthMedicalHistory",
                 "translationKey": "REGISTRATION_PATIENT_PREGNANCY_AND_BIRTH_MEDICAL_HISTORY",
-                "attributes": ["Were there complications during pregnancy","Were there complications during birth","Did mother take vitamins during pregnancy","Did mother take vitamins before conception","Did mother smoke during pregnancy","Number of previous births","Age of Mother at conception","Age of Father at conception","Did mother have previous abortion","Number of previous abortions","Reason for abortion","Length of pregnancy in months","Pregnancy and Birth Medical History Comment"],
+                "attributes": ["Were there complications during pregnancy","Were there complications during birth","Did mother take vitamins during pregnancy","Did mother take vitamins before conception","Did mother smoke during pregnancy","Number of previous births","Age of Mother at conception","Age of Father at conception","Did mother have previous abortion","Number of previous abortions","Reason for abortion","Length of pregnancy in months","Pregnancy and Birth Medical History Comment","Medications before conception","Medications during pregnancy","Vitamin A","Vitamin D","Folic Acid","Vitamin B Complex","Zinc","Other Vitamin"],
                 "order" : 5,
                 "expanded": true
         },
@@ -72,13 +72,14 @@
 "patientPriorCleftSurgery": {
             "title": "patientPriorCleftSurgery",
             "translationKey": "REGISTRATION_PATIENT_PRIOR_CLEFT_SURGERY",
-            "attributes": ["Prior Cleft Surgery Date new","Prior Cleft Surgery Location","Prior Cleft Surgery Diagnosis","Prior Cleft Surgery Velopharyngeal Insufficiency","Cleft Surgery Type","Prior Cleft Surgery Type","Prior Cleft Surgery Comment"],
+            "attributes": ["Prior Cleft Surgery Date new","Prior Cleft Surgery Location","Prior Cleft Surgery Diagnosis","Prior Cleft Surgery Type","Prior Cleft Surgery Comment","Prior Cleft Surgery Velopharyngeal Insufficiency"],
             "order" : 7,
             "expanded": true
     },
              "hidden": {
                     "attributes": [
                         "RationCard",
+                         "Ethiopian_DOB",
                         "distanceFromCenter",
                         "isUrban",
                         "cluster",
