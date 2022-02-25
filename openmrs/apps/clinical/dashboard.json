@@ -65,6 +65,18 @@
           "showDetailsButton": true
         }
       },
+            "radiologyOrders":{  
+                "orderType":"Radiology Order",
+                "type":"ordersControl",
+                "translationKey":"DASHBOARD_TITLE_RADIOLOGY_ORDERS_KEY",
+                "displayOrder":17,
+                "dashboardConfig":{  
+                    "conceptNames":[  
+                        "Summary"
+                    ],
+                    "numberOfVisits":4
+                }
+            },
       "programs": {
         "translationKey": "DASHBOARD_TITLE_PROGRAMS_KEY",
         "type": "programs",

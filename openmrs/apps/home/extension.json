@@ -19,6 +19,16 @@
     "order": 3,
     "requiredPrivilege": "app:clinical"
   },
+ "orders": {
+    "id": "bahmni.orders",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "MODULE_LABEL_ORDERS_KEY",
+    "url": "../orders/#/search",
+    "icon": "icon-bahmni-orders",
+    "order": 10,
+    "requiredPrivilege": "app:orders"
+  },
   "adt": {
     "id": "bahmni.adt",
     "extensionPointId": "org.bahmni.home.dashboard",
@@ -39,6 +49,16 @@
     "icon": "fa-bed",
     "order": 7,
     "requiredPrivilege": "app:adt"
+  },
+   "radiologyDocumentUpload": {
+    "id": "bahmni.radiology.document.upload",
+    "extensionPointId": "org.bahmni.home.dashboard",
+    "type": "link",
+    "translationKey": "MODULE_LABEL_RADIOLOGY_UPLOAD_KEY",
+    "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
+    "icon": "icon-bahmni-radiology",
+    "order": 5,
+    "requiredPrivilege": "app:radiology-upload"
   },
   "patientDocumentUpload": {
     "id": "bahmni.patient.document.upload",
